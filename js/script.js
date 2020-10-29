@@ -16,7 +16,7 @@
     
         // url request to get info based on name
         const response = $.ajax({
-            url: 'https://rickandmortyapi.com/api/character/?name='+name
+            url: 'https://rickandmortyapi.com/api/character/?name='+ name
         })
         
         response.then(
@@ -41,13 +41,23 @@
                 });
 
                 $( "main" ).append( html );
+
+                //clear input
+                $(document).ready(function(){
+                    $('#character-name').val('');
+                  });
+
+                
+                  //$('#rt1').click(function() {
+                   // $('#t1').val('');  
+                  //}   
             },
+            
+            
             (error) => {
 
-                //---------------------------------------------//
-                //              handle error
-                //---------------------------------------------//
-                console.log("bad request: ", error)
+               alert('Character Unknown, try again');
+                //console.log("bad request: ", error)
             }
         )
     });
