@@ -14,6 +14,8 @@ A web application used to search your favorite Rick and Morty characters.
 <img src='Rick-Morty-wireframe.png'>
 
 ## Getting Started
+[Click Here](https://rick-and-morty-app-wine.vercel.app/) to see the deployed app!
 
 ## Future Enchancements
-- 
+- The ability to search other Rick and Morty information besides just characters
+- The ability to reset characters
