@@ -42,7 +42,7 @@
                  html =  html.concat(card);
                 });
 
-                $( "main" ).append( html );
+                $( "main" ).empty().append( html );
 
                 //clear input
                 $(document).ready(function(){
