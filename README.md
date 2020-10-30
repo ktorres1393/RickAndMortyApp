@@ -6,7 +6,7 @@ A web application used to search your favorite Rick and Morty characters.
 - CSS3
 - Javascript
 - jQuery
-- Google Fonts
+- Bootstrap
 - Rick and Morty API
 
 ## Screenshots

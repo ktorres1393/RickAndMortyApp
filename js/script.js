@@ -10,6 +10,8 @@
         // prevent page from refreshing 
         event.preventDefault();
 
+        
+                    
         //get name in input field
         const name =  $('#character-name').val();
         console.log(name);
@@ -48,16 +50,18 @@
                   });
 
                 
-                  //$('#rt1').click(function() {
-                   // $('#t1').val('');  
-                  //}   
             },
             
             
+
             (error) => {
 
                alert('Character Unknown, try again');
                 //console.log("bad request: ", error)
+
+                
             }
         )
+        ;
+
     });
