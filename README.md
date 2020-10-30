@@ -1,5 +1,5 @@
 # Rick and Morty
-A web application used to search your favorite Rick and Morty characters.
+A web application used to search your favorite Rick and Morty characters simply by typing their name.
 
 ## Technologies Used
 - HTML5
@@ -17,5 +17,5 @@ A web application used to search your favorite Rick and Morty characters.
 [Click Here](https://rick-and-morty-app-wine.vercel.app/) to see the deployed app!
 
 ## Future Enchancements
+- The abitiy to narrow down searches to specific versions of characters
 - The ability to search other Rick and Morty information besides just characters
-- The ability to reset characters
